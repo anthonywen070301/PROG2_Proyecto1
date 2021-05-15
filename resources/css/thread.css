@@ -1,0 +1,100 @@
+.thread {
+    background-color: #2A3840;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    display: table;
+    table-layout: fixed;
+    padding: 5px 20px 10px;
+    width: 100%;
+}
+
+.thread-header, .thread-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tc-pages {
+    text-align: right;
+    font-size: 11px;
+}
+
+.thread-title {
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0;
+}
+
+.tc-title {
+    background-color: #20272d;
+    margin-bottom: 5px;
+}
+
+.tc-title-header {
+    padding: 10px;
+    margin: 5px 0 0;
+}
+
+.tc-posts-list {
+    width: 100%;
+}
+
+.post {
+    margin-bottom: 5px;
+}
+
+.post-header {
+    background-color: #20272d;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+
+.ph-list {
+    list-style-type: none;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.post-content {
+    background-color: #3c4c55;
+    box-sizing: border-box;
+    padding: 0 10px 10px;
+    display: table;
+    table-layout: fixed;
+}
+
+.post-user {
+    vert-align: top;
+    text-align: center;
+    display: table-cell;
+    width: 15%;
+    border-right: 1px solid #C1C1C1;
+}
+
+.post-text {
+    display: table-cell;
+    width: 85%;
+}
+
+.user-name {
+    font-weight: 600;
+    margin: 15px 0 0;
+}
+
+.user-pic {
+    margin: 15px auto;
+    height: 150px;
+    width: 150px;
+    border: #FFFFFF 1px solid;
+}
+
+.user-info {
+    text-align: left;
+    font-size: 11px;
+}
+
+.post-text {
+    padding: 10px;
+    word-break: break-word;
+}

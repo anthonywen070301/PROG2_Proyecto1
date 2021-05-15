@@ -1,0 +1,145 @@
+/*
+    COLORES
+
+    background:     #171717
+    white:          #FFFFFF
+    menus:          #20272d
+    second menu:    #2A3840
+    Secondary:      #70C989
+    terciary:       #FFF62F
+    gray:           #C1C1C1
+    shadow:         #1c2126
+    back shadow:    #161c20
+ */
+
+/*
+    GENERAL
+*/
+
+body {
+    font-family: Verdana, serif;
+    font-size: 14px;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #171717;
+}
+
+a {
+    color: #70C989;
+    text-decoration: none;
+}
+/* Header */
+
+.header-head {
+    color: #FFFFFF;
+    height: 50px;
+}
+
+.header-head-logo {
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+.header-head-logo p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.header-head-menu {
+    float: right;
+    padding: 10px 10px 0 0;
+}
+
+.header-bar {
+    height: 45px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20272d;
+}
+
+.navbar-item a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar-item a:hover {
+    background-color: #70c989;
+}
+
+.navbar-item input {
+    background: #2A3840;
+    color: #FFFFFF;
+}
+
+.navbar-item input, .navbar-item button {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+/*
+    FOOTER
+*/
+
+.footer-head {
+    background-color: #1c2126;
+    color: #777a7d;
+    height: 200px;
+}
+
+.footer-head-proyecto {
+    float: left;
+    padding: 80px 0 0 20px;
+}
+
+.footer-head-proyecto p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.header-head-menu {
+    float: right;
+    padding: 10px 30px 0 0;
+}
+
+/*
+    ITEMS
+*/
+
+.button {
+    padding: 5px 12px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.bordered-button {
+    background-color: transparent;
+    border: solid 2px #70c989;
+    color: #70c989;
+}
+
+.filled-button {
+    background-color: #70c989;
+    border: solid 2px #70c989;
+    color: #FFFFFF;
+}
