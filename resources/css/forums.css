@@ -1,12 +1,8 @@
-.forums {
-    background-color: #2A3840;
-    color: #FFFFFF;
-    box-sizing: border-box;
-    display: table;
-    table-layout: fixed;
-    padding: 5px 20px 10px;
-    width: 100%;
-}
+/*
+    prepare for forum present board navbar
+    will turn header into div with subdivs.
+    probably will only keep title and nav
+*/
 
 .forums-header, .forum-container {
     width: 80%;
@@ -24,7 +20,9 @@
     font-size: 16px;
     padding: 8px 8px;
 }
-
+/*
+    new name
+*/
 .forum-board {
     background-color: #3c4c55;
     border-bottom: solid 1px #C1C1C1;
@@ -43,6 +41,10 @@
     width: 50%;
 }
 
+/*
+    chcek type for color
+*/
+
 .board-info-title {
     text-decoration: none;
     color: #70c989;
@@ -57,6 +59,11 @@
     width: 10%;
     text-align: center;
 }
+
+/*
+ inherit color
+ both below
+*/
 
 .board-stats-posts {
     color: #FFFFFF;
@@ -91,6 +98,10 @@
     margin-right: 12px;
     word-break: break-word;
 }
+
+/*
+    check font sizes
+*/
 
 .bc-info-title {
     color: #70c989;
