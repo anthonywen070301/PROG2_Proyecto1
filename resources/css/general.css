@@ -155,3 +155,50 @@ a {
     background-color: #70c989;
     color: #FFFFFF;
 }
+
+/*
+    Blocks
+*/
+
+.block {
+    display: table;
+}
+
+.block-profile {
+    display: table-cell;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.block-profile-img {
+    height: 50px;
+    width: 40px;
+    border: #FFFFFF 1px solid;
+}
+
+.block-content {
+    display: table-cell;
+    word-break: break-word;
+    margin-right: 0;
+}
+
+.block-content-title {
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 4px;
+}
+
+.block-content-text {
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.block-content-info {
+    color: #C1C1C1;
+    font-size: 10px;
+    display: inline-block;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
