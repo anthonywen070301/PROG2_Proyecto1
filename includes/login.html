@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<div id="login">
+    <a id="popup_anchor" href="#" class="popup-anchor"></a>
+    <div class="popup">
+        <div class="popup-content">
+            <h1 class="popup-content-title">Login</h1>
+            <div class="popup-forms">
+                <form method="post">
+                    <div class="popup-form-container">
+                        <label for="usuario"><br>Usuario</br></label>
+                        <input type="text" placeholder="Ingrese Usuario" id= usuario name="usuario" required>
+                        <label for="contraseña"><br>Constraseña</br></label>
+                        <input type="password" placeholder="Ingrese contraseña" id= contraseña name="contraseña" required>
+                        <br><input type="checkbox" checked="checked" name="Recordar contraseña"> Recuerdame</br>
+                        <button type="submit" class="">Iniciar Sesion</button>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="button filled-button">Cancelar</button>
+                        <span class="psw">Olvido su <a href="#">contraseña?</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <a class="popup-close" href="#">x</a>
+    </div>
+</div>
+</body>
+</html>
