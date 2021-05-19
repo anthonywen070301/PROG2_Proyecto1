@@ -8,9 +8,9 @@
     Secondary:      #70C989
     terciary:       #FFF62F
     gray:           #C1C1C1
-    shadow:         #1c2126
-    back shadow:    #161c20
- */
+    other black:    #1c2126
+    other black 2:  #161c20
+*/
 
 /*
     GENERAL
@@ -20,59 +20,61 @@ body {
     font-family: Verdana, serif;
     font-size: 14px;
     text-align: left;
+    color: #FFFFFF;
+    background-color: #171717;
     width: 80%;
     margin: 0 auto;
-    background-color: #171717;
 }
 
 a {
     color: #70C989;
     text-decoration: none;
 }
-/* Header */
 
-.header-head {
-    color: #FFFFFF;
+/*
+    Header
+*/
+
+#header-head {
     height: 50px;
 }
 
-.header-head-logo {
+#header-head-logo {
     float: left;
     padding: 10px 0 0 10px;
 }
 
-.header-head-logo p {
+#header-head-logo p {
     margin: 0;
     font-size: 24px;
     font-weight: 700;
     text-align: left;
 }
 
-.header-head-menu {
+#header-head-usermenu {
     float: right;
     padding: 10px 10px 0 0;
 }
 
-.header-bar {
+#header-bar {
     height: 45px;
 }
 
 .navbar {
     list-style-type: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #20272d;
 }
 
 .navbar-item a {
+    color: #FFFFFF;
+    font-weight: 700;
     float: left;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 700;
 }
 
 .navbar-item a:hover {
@@ -80,8 +82,8 @@ a {
 }
 
 .navbar-item input {
-    background: #2A3840;
     color: #FFFFFF;
+    background: #2A3840;
 }
 
 .navbar-item input, .navbar-item button {
@@ -91,6 +93,19 @@ a {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 14px;
+}
+
+/*
+    Body
+*/
+
+.content {
+    background-color: #2A3840;
+    box-sizing: border-box;
+    display: table;
+    table-layout: fixed;
+    padding: 5px 10px 10px;
+    width: 100%;
 }
 
 /*
@@ -128,18 +143,15 @@ a {
     padding: 5px 12px;
     font-weight: 600;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
+    border: solid 2px #70c989;
 }
 
 .bordered-button {
     background-color: transparent;
-    border: solid 2px #70c989;
-    color: #70c989;
 }
 
 .filled-button {
     background-color: #70c989;
-    border: solid 2px #70c989;
     color: #FFFFFF;
 }
