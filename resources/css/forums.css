@@ -1,29 +1,16 @@
-/*
-    prepare for forum present board navbar
-    will turn header into div with subdivs.
-    probably will only keep title and nav
-*/
 
-.forums-header, .forum-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.forum-container {
+.forum-section {
     padding-bottom: 16px;
 }
 
-.board-header {
+.section-header {
     background-color: #20272d;
-    color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
     padding: 8px 8px;
 }
-/*
-    new name
-*/
-.forum-board {
+
+.board {
     background-color: #3c4c55;
     border-bottom: solid 1px #C1C1C1;
     color: #C1C1C1;
@@ -33,88 +20,40 @@
     width: 100%;
 }
 
-.board-info {
-    color: #C1C1C1;
+.board-name {
     display: table-cell;
     padding-right: 10px;
-    vertical-align: top;
     width: 50%;
+    vertical-align: middle;
 }
 
-/*
-    chcek type for color
-*/
+.board-name-content {
+    display: inline-block;
+}
 
-.board-info-title {
-    text-decoration: none;
-    color: #70c989;
+.board-name-content-title {
+    display: block;
     font-weight: 600;
 }
 
-.board-info-description {
+.board-name-content-description {
+    color: #C1C1C1;
     font-size: 12px;
 }
 
 .board-stats {
+    display: table-cell;
     width: 10%;
     text-align: center;
+    vertical-align: middle;
 }
-
-/*
- inherit color
- both below
-*/
 
 .board-stats-posts {
-    color: #FFFFFF;
     font-weight: 600;
 }
 
-.board-content {
-    color: #FFFFFF;
+.board-thread {
     display: table-cell;
-    padding: 0;
-    vertical-align: top;
-}
-
-.bc-profile {
-    color: #FFF62F;
-    text-decoration: none;
-    margin-right: 8px;
-    float: right;
-}
-
-.bc-profile-img {
-    display: block;
-    float: left;
-    height: 50px;
-    width: 40px;
-    border: #FFFFFF 1px solid;
-}
-
-.bc-info {
-    float: right;
-    display: block;
-    margin-right: 12px;
-    word-break: break-word;
-}
-
-/*
-    check font sizes
-*/
-
-.bc-info-title {
-    color: #70c989;
-    display: block;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.bc-info-stats {
-    color: #C1C1C1;
-    font-size: 10px;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+    width: 40%;
+    padding-left: 30px;
 }

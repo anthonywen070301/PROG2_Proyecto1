@@ -13,53 +13,52 @@
     margin: 0 auto;
 }
 
-.tc-pages {
+.thread-pages {
     text-align: right;
     font-size: 11px;
 }
 
 .thread-title {
-    color: #FFFFFF;
-    display: inline-block;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 0;
-}
-
-.tc-title {
+    display: block;
     background-color: #20272d;
-    margin-bottom: 5px;
-}
-
-.tc-title-header {
     padding: 10px;
-    margin: 5px 0 0;
+    margin: 5px 0 10px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
-.tc-posts-list {
+.post-list {
     width: 100%;
 }
 
 .post {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .post-header {
+    display: table;
+    box-sizing: border-box;
+    width: 100%;
     background-color: #20272d;
     padding: 5px 5px;
     font-size: 12px;
 }
 
-.ph-list {
-    list-style-type: none;
-    padding: 0 10px;
-    overflow: hidden;
+.post-header-date {
+    width: 50%;
+    padding-right: 10px;
+    display: table-cell;
+}
+
+.post-header-number {
+    width: 50%;
+    text-align: right;
+    padding-left: 10px;
+    display: table-cell;
 }
 
 .post-content {
     background-color: #3c4c55;
-    box-sizing: border-box;
-    padding: 0 10px 10px;
     display: table;
     table-layout: fixed;
 }
@@ -68,13 +67,9 @@
     vert-align: top;
     text-align: center;
     display: table-cell;
+    padding: 0 10px 10px;
     width: 15%;
     border-right: 1px solid #C1C1C1;
-}
-
-.post-text {
-    display: table-cell;
-    width: 85%;
 }
 
 .user-name {
@@ -95,6 +90,8 @@
 }
 
 .post-text {
-    padding: 10px;
+    display: table-cell;
+    padding: 0 10px 10px;
+    width: 85%;
     word-break: break-word;
 }
