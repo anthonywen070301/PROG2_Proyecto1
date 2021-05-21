@@ -56,9 +56,9 @@ a {
 
 .popup {
     display: none;
-    background: #171717;
-    width: 400px;
-    height: 380px;
+    background: white;
+    width: 640px;
+    height: 480px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -69,41 +69,18 @@ a {
     box-sizing    : border-box;
 }
 .popup-content{
-    top: 50%;
     width: 50%;
     margin: auto;
-    color: white;
+    color: black;
 }
-
 .popup-content-title{
-    height: 50%;
-}
-
-.popup-labels{
-    text-align: left;
-}
-
-.popup-content-inputs{
-    color: white;
-    width: 70%;
-    padding: 12px 20px;
-    margin: 6px 0;
-    display: inline-block;
-    border: 1px solid #20272d;
-    box-sizing: border-box;
-    background-color: #20272d;
-}
-
-::placeholder {
-    color: #ffffff;
-    opacity: 50%;
 }
 
 .popup > .popup-close{
     color: white;
     position: absolute;
     font-weight: bold;
-    right: 5px;
+    right: 10px;
     bottom        : 100%;
     margin-bottom    : 5px;
 }
@@ -121,7 +98,7 @@ a {
     padding: 10px 0 0 10px;
 }
 
-#header-head-logo-title {
+#header-head-logo p {
     margin: 0;
     font-size: 24px;
     font-weight: 700;
@@ -163,7 +140,16 @@ a {
     background: #2A3840;
 }
 
-.navbar-item input, .navbar-item button {
+.navbar-itemm a{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.navbar-item input{
     float: right;
     padding: 6px;
     border: none;
