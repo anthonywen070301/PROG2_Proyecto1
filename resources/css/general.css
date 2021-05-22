@@ -160,9 +160,10 @@ a {
 .navbar-item input {
     color: #FFFFFF;
     background: #2A3840;
+    cursor: text;
 }
 
-.navbar-itemm a{
+.navbar-item input, .navbar-item button{
     float: right;
     padding: 6px;
     border: none;
@@ -171,13 +172,8 @@ a {
     font-size: 14px;
 }
 
-.navbar-item input{
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 14px;
+.navbar-item button {
+    cursor: pointer;
 }
 
 .forums-header, .forum-section {
