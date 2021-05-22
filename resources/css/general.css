@@ -74,7 +74,6 @@ a {
     margin: auto;
     color: white;
 }
-
 .popup-content-title{
     height: 50%;
 }
@@ -121,7 +120,7 @@ a {
     padding: 10px 0 0 10px;
 }
 
-#header-head-logo-title {
+#header-head-logo title {
     margin: 0;
     font-size: 24px;
     font-weight: 700;
@@ -163,7 +162,16 @@ a {
     background: #2A3840;
 }
 
-.navbar-item input, .navbar-item button {
+.navbar-itemm a{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.navbar-item input{
     float: right;
     padding: 6px;
     border: none;
