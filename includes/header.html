@@ -35,16 +35,18 @@
             <li class="navbar-item">
                 <a href="#">Acerca De</a>
             </li>
-            <li class="navbar-item">
-                <input type="text" name="buscar" placeholder="Buscar...">
-            </li>
-            <li class="navbar-itemm">
-                <a class="button filled-button" type="submit" href="../includes/search.html">
+            <form method="get" action="../pages/search.html">
+                <li class="navbar-item">
+                    <button class="button filled-button" type="submit">
                     <span>
                         Buscar
                     </span>
-                </a>
-            </li>
+                    </button>
+                </li>
+                <li class="navbar-item">
+                    <input type="text" name="buscar" placeholder="Buscar...">
+                </li>
+            </form>
         </ul>
     </div>
 </header>

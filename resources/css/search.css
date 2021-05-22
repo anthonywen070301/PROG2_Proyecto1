@@ -1,0 +1,23 @@
+.section-header {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.section-header-column {
+    font-size: 12px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.board-name, .column-thread {
+    width: 70%;
+}
+
+.board-stats, .column-replies {
+    width: 10%;
+}
+
+.board-thread, .column-post {
+    width: 20%;
+}
