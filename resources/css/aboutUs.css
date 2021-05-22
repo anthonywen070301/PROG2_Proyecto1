@@ -1,48 +1,21 @@
-.about-section {
-    padding-bottom: 16px;
-    width: 80%;
-    margin: 0 auto;
+.content {
+    background-color: #161c20;
 }
 
-.board {
+.members {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.member {
+    display: inline-block;
+    width: 25%;
     background-color: #3c4c55;
-    color: #C1C1C1;
-    display: table;
-    box-sizing: border-box;
-    padding: 12px 8px;
+    margin: 15px 10px;
+    padding: 10px;
+}
+
+.member-pic {
     width: 100%;
 }
-
-.tooplate_main {
-    display: table-cell;
-    padding: 12px 8px;
-    margin: 0 auto;
-    display: table;
-    box-sizing: border-box;
-    background-color: #3c4c55;
-    width: 80%;
-    text-align: center;
-}
-
-.column {
-    float: left;
-    width: 32%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
-.border-shadow {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-}
-
-.container {
-    padding: 0 16px;
-}
-
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
