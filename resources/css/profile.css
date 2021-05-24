@@ -1,0 +1,92 @@
+.profile {
+    width: 80%;
+    overflow:auto;
+    margin: auto;
+}
+
+.profile-general {
+    background-color: #3c4c55;
+    border: 1px solid #C1C1C1;
+}
+
+.profile-general, .profile-info {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.profile-general-pic {
+    float: left;
+    margin: 0 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-general-pic-img {
+    width: 200px;
+    height: 200px;
+}
+
+.profile-general-info {
+    float: left;
+}
+
+.profile-name {
+
+}
+
+.profile-stats {
+    display: table;
+}
+
+.profile-stats-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.profile-stats-list-item {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.stats-list-item-title {
+    color: #868686;
+    font-size: 11px;
+    margin: 0;
+}
+
+.profile-info-about {
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #C1C1C1;
+    float: left;
+}
+
+.profile-info-posts {
+    width: 75%;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+}
+
+.board {
+    background-color: #3C4C55;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #C1C1C1;
+}
+
+.board-name-content-subtext {
+    color: #C1C1C1;
+    font-size: 12px;
+    margin: 10px 0;
+}
