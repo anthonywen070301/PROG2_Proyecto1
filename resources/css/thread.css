@@ -35,13 +35,20 @@
     margin-bottom: 10px;
 }
 
-.post-header {
+.post-header, .post-footer {
     display: table;
     box-sizing: border-box;
     width: 100%;
+    font-size: 12px;
+}
+
+.post-header {
     background-color: #20272d;
     padding: 5px 5px;
-    font-size: 12px;
+}
+
+.post-footer {
+    background-color: #3c4c55;
 }
 
 .post-header-date {
@@ -63,13 +70,21 @@
     table-layout: fixed;
 }
 
-.post-user {
+.post-user, .post-extra {
     vert-align: top;
     text-align: center;
     display: table-cell;
     padding: 0 10px 10px;
-    width: 15%;
+    width: 20%;
     border-right: 1px solid #C1C1C1;
+}
+
+.post-extra p {
+    margin: 10px 0 0;
+}
+
+.post-user {
+    border-bottom: 1px solid #C1C1C1;
 }
 
 .user-name {
@@ -89,9 +104,64 @@
     font-size: 11px;
 }
 
-.post-text {
+.post-text, .post-actions {
     display: table-cell;
-    padding: 0 10px 10px;
-    width: 85%;
+    width: 80%;
     word-break: break-word;
+}
+
+.post-text {
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #C1C1C1;
+}
+
+.post-actions {
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.action-button {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.action-icon {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.action-icon-img {
+    width: 25px;
+    height: 25px;
+}
+
+.action-like {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.positive-like {
+    color: #fff62f;
+}
+
+.negative-like {
+    color: red;
+}
+
+.post-reply-list {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.post-reply-list-item {
+    color: #FFFFFF;
+    font-weight: 700;
+    float: right;
+    display: block;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 10px;
 }
