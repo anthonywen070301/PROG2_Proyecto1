@@ -92,6 +92,10 @@
     margin: 15px 0 0;
 }
 
+.user-name a {
+    color: #FFFFFF;
+}
+
 .user-pic {
     margin: 15px auto;
     height: 150px;
