@@ -141,8 +141,9 @@ header {
 }
 
 .manager {
+    width: 80%;
     border-collapse: separate;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
 }
 
 .manager-header {
@@ -182,11 +183,16 @@ header {
 }
 
 .canal-nombre {
-    width: 200px;
+    width: 50%;
     padding: 5px 20px;
 }
 
 .canal-boton {
+    width: 10%;
     text-align: center;
     padding: 5px 0;
+}
+
+.text-input {
+    width: 50px;
 }
